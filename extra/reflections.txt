@@ -1,0 +1,37 @@
+WORK JOURNAL
+
+Friday 13th March 2026:
+I am learning and getting familiar with the grid properties
+
+Saturday 14th March 2026: At 8pm
+. I am thinking about the app I am creating. A dashboard tool
+
+Sunday 15th March 2026:
+I am building my code.
+
+
+
+REFLECTION
+
+
+What I did: What did you change and how long did it take?
+I made a dashboard UI for viewing your photo gallery
+
+
+What worked well: What clicked about Grid that didn’t click before?
+Really all the css properties, I still doubt myself when writing code.
+
+
+What was tricky: Where did you struggle with Grid concepts?
+minmax, clamp functions are still super tricky
+
+
+Key insight: How does your Lab 8 compare to Labs 6 and 7? What’s the biggest visual difference?
+Lab 8 was really a decisive action.
+
+Next steps: What will you work on improving in the next lab? (1 paragraph)
+I think I will continue to build more personal projects so I am more in tune with all the properties
+
+Work quality: Pick the one that best describes your work:
+👍 Good practice, not portfolio-ready
+
