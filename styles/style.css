@@ -158,13 +158,79 @@ a:focus-visible {
   padding: 24px;
   overflow: auto;
   border-right: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  /* border-bottom: 1px solid var(--border); */
+
+
+  & ul {
+    list-style: none;
+    margin: 16px 0 0;
+    padding: 0;
+
+    display: grid;
+    gap: 10px;
+  }
+
+  & a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: var(--radius-sm);
+    color: var(--text-muted);
+
+    &:hover, 
+    &:focus-visible {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+    }
+  }
+  
 }
 
-.sidebar h2 {
-  margin: 0;
+
+/*
+.___  ___.      ___       __  .__   __.
+|   \/   |     /   \     |  | |  \ |  |
+|  \  /  |    /  ^  \    |  | |   \|  |
+|  |\/|  |   /  /_\  \   |  | |  . `  |
+|  |  |  |  /  _____  \  |  | |  |\   |
+|__|  |__| /__/     \__\ |__| |__| \__|
+*/
+.main {
+  background: radial-gradient(circle at top right, rgba(63, 127, 236, 0.237), transparent 30%), transparent;
+  
+  grid-area: main;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  padding: 24px;
 }
 
+
+
+
+
+
+
+
+
+
+/* 
+ _______   ______     ______   .___________. _______ .______      
+|   ____| /  __  \   /  __  \  |           ||   ____||   _  \     
+|  |__   |  |  |  | |  |  |  | `---|  |----`|  |__   |  |_)  |    
+|   __|  |  |  |  | |  |  |  |     |  |     |   __|  |      /     
+|  |     |  `--'  | |  `--'  |     |  |     |  |____ |  |\  \----.
+|__|      \______/   \______/      |__|     |_______|| _| `._____|
+*/
+.footer {
+  background: var(--surface-2);
+  color: var(--text-muted);
+  
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border-top: 1px solid var(--border);
+}
 
 
 
