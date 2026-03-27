@@ -189,6 +189,12 @@ a:focus-visible {
 
 }
 
+@media (min-width: 365px) and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 
 /*
 .___  ___.      ___       __  .__   __.
