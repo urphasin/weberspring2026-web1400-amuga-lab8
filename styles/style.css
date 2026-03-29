@@ -191,7 +191,7 @@ a:focus-visible {
 
 @media (max-width: 1024px) {
   :root {
-    --sidebar-w: 0px; /* 🔥 collapses the column */
+    --sidebar-w: 0px;
   }
   
   .sidebar {
@@ -201,7 +201,7 @@ a:focus-visible {
   .app {
     grid-template-areas:
     "header header"
-    "main"
+    "main main"
     "footer footer";
   }
 }
