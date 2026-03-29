@@ -87,8 +87,8 @@ a:focus-visible {
 
 
   display: grid;
-  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
-  grid-template-rows: var(--header-h) minmax(0, 1fr) var(--footer-h);
+  grid-template-columns: clamp(200px, 20vw, 320px) minmax(0, 1fr);
+  grid-template-rows: clamp(60px, 8vh, 100px) minmax(0, 1fr) clamp(50px, 6vh, 80px);
   grid-template-areas:
     "header header"
     "sidebar main"
