@@ -21,7 +21,8 @@ I used clamp functionm, min max
 
 
 What was tricky: Where did you struggle with responsive design?
-I struggled with understand srcset syntax at first. I also struggled with getting different dimensions of the same image with photoshops
+I struggled with understand srcset syntax at first. I also struggled with getting different dimensions of the same image with photoshops.
+I need help with the fitting of images. Should I use aspect-ratio inside the containers? I gave up on the making of images responsive.
 
 
 
